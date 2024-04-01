@@ -1,0 +1,702 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="fr-FR">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2024 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+
+<title>Politique des cookies | Nouvelle attitude</title>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="generator" content="TYPO3 CMS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.nouvelle-attitude.fr/politique-des-cookies.html">
+<meta property="og:site_name" content="Nouvelle attitude">
+<meta property="og:image" content="https://www.nouvelle-attitude.fr/fileadmin/_processed_/3/5/csm_partage-nouvelle-attitude_69eb00a3a1.png">
+<meta property="og:title" content="Politique des cookies">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.nouvelle-attitude.fr/fileadmin/_processed_/3/5/csm_partage-nouvelle-attitude_e8d6215cb0.png">
+
+
+<link rel="stylesheet" type="text/css" href="typo3temp/assets/compressed/merged-8f9e51398fabd704c7d48c067d509738.css?1710277303" media="all">
+
+
+
+
+<script>
+/*<![CDATA[*/
+/*_scriptCode*/
+
+			/* decrypt helper function */
+		function decryptCharcode(n,start,end,offset) {
+			n = n + offset;
+			if (offset > 0 && n > end) {
+				n = start + (n - end - 1);
+			} else if (offset < 0 && n < start) {
+				n = end - (start - n - 1);
+			}
+			return String.fromCharCode(n);
+		}
+			/* decrypt string */
+		function decryptString(enc,offset) {
+			var dec = "";
+			var len = enc.length;
+			for(var i=0; i < len; i++) {
+				var n = enc.charCodeAt(i);
+				if (n >= 0x2B && n <= 0x3A) {
+					dec += decryptCharcode(n,0x2B,0x3A,offset);	/* 0-9 . , - + / : */
+				} else if (n >= 0x40 && n <= 0x5A) {
+					dec += decryptCharcode(n,0x40,0x5A,offset);	/* A-Z @ */
+				} else if (n >= 0x61 && n <= 0x7A) {
+					dec += decryptCharcode(n,0x61,0x7A,offset);	/* a-z */
+				} else {
+					dec += enc.charAt(i);
+				}
+			}
+			return dec;
+		}
+			/* decrypt spam-protected emails */
+		function linkTo_UnCryptMailto(s) {
+			location.href = decryptString(s,3);
+		}
+		
+
+/*TS_inlineJS*/
+
+var dataLayer = [];var orejimeConfig = {"appElement":"body","privacyPolicy":"\/politique-des-cookies.html","lang":"fr","mustNotice":true,"apps":[{"name":"site","title":"Fonctionalit\u00e9s du site","description":"Sans ces cookies, nous ne pouvons pas faire fonctionner certains services essentiels, comme la connexion \u00e0 votre compte utilisateur.","cookies":[],"required":true,"purposes":["site"]},{"name":"analytics","title":"Analyse des audiences","description":"Ces cookies sont utilis\u00e9s pour nous aider \u00e0 analyser le trafic et l'audience du site.","cookies":["_ga","_gat","_gid","__utma","__utmb","__utmc","__utmt","__utmz","_gat_gtag_GTM-NC94D2B","_gat_GTM-NC94D2B"],"purposes":["analytics"],"default":false}],"translations":{"fr":{"consentModal":{"title":"Les informations que nous collectons","description":"Ici, vous pouvez voir et personnaliser les informations que nous collectons.","privacyPolicy":{"name":"politique de confidentialit\u00e9","text":"Pour en savoir plus, merci de lire notre {privacyPolicy}."}},"consentNotice":{"changeDescription":"Des modifications ont eu lieu depuis votre derni\u00e8re visite, merci de mettre \u00e0 jour votre consentement.","description":"Notre site utilise des cookies ou autres traceurs pour faciliter l\u2019utilisation du site,\n                        am\u00e9liorer la performance et la s\u00e9curit\u00e9 du site. Certains cookies, autres que les cookies fonctionnels et de s\u00e9curit\u00e9,\n                        n\u00e9cessitent votre accord pour \u00eatre d\u00e9pos\u00e9s. Vos choix seront valables pour ce site. Vous pouvez changer d\u2019avis \u00e0 tout\n                        moment en param\u00e9trant vos cookies. Pour en savoir plus sur notre politique de cookies","learnMore":"Configurer vos pr\u00e9f\u00e9rences","privacyPolicy":{"name":"cliquez sur ce lien","text":", {privacyPolicy}."}},"accept":"Accepter","acceptAll":"Tout accepter","save":"Sauvegarder","saveData":"Sauvegarder ma configuration sur les informations collect\u00e9es","decline":"Continuer sans accepter","declineAll":"Continuer sans accepter","close":"Fermer","enabled":"Activ\u00e9","disabled":"D\u00e9sactiv\u00e9","app":{"purposes":"Utilisations","purpose":"Utilisation"},"poweredBy":"Propuls\u00e9 par Orejime","newWindow":"nouvelle fen\u00eatre","purposes":{"site":"fonctionnalit\u00e9s du site","analytics":"mesure de trafic et audience"}}}};
+
+
+/*]]>*/
+</script>
+
+<link rel="icon" type="image/png" href="typo3conf/ext/site/Resources/Public/Frontend/assets/images/favicons/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="typo3conf/ext/site/Resources/Public/Frontend/assets/images/favicons/favicon.ico">        <!-- Google Tag Manager -->
+        <script type="opt-in" data-type="application/javascript" data-name="analytics">
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NC94D2B');</script>
+        <!-- End Google Tag Manager -->
+<link rel="canonical" href="politique-des-cookies.html">
+</head>
+<body class="page ">
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC94D2B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+
+    <ul class="skip-link">
+        <li><a href="#main">Aller au contenu</a></li>
+    </ul>
+
+    
+
+    <header role="banner" class="navbar">
+        <div class="container">
+            <button id="menu" class="btn btn-menu" data-toggle="modal" data-target="#modal-menu" aria-haspopup="dialog" type="button">
+                <span class="far fa-bars" aria-hidden="true"></span>
+
+                <span class="d-none d-sm-inline">Menu</span>
+            </button>
+
+            
+                    <a class="navbar-brand" href="index.htm">
+                        <img alt="Nouvelle attitude" src="typo3conf/ext/site/Resources/Public/Frontend/assets/images/logo-nouvelle-attitude.svg" width="130" height="60">
+                    </a>
+                
+
+            <div class="navbar-inner" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden="true">
+                <span class="menuStart" tabindex="0"></span>
+
+                <button type="button" class="btn btn-menu-close">
+                    <span class="fal fa-times" aria-hidden="true"></span>
+
+                    <strong>Fermer <span class="sr-only">le menu</span></strong>
+                </button>
+
+                <nav aria-label="Navigation principale" role="navigation" tabindex="1">
+                    
+                        
+                            
+                                <ul class="navbar-nav navbar-nav-1">
+                                    
+                                        <li class="nav-item">
+                                            <a href="notre-mission-dinsertion.html" target="" class="nav-link" aria-current="false">
+                                                Notre mission d&#039;insertion
+                                            </a>
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            <a href="nos-savoir-faire.html" target="" class="nav-link" aria-current="false">
+                                                Nos savoir-faire
+                                            </a>
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            <a href="qui-sommes-nous.html" target="" class="nav-link" aria-current="false">
+                                                Qui sommes-nous ?
+                                            </a>
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            <a href="nos-actualites.html" target="" class="nav-link" aria-current="false">
+                                                Actualités
+                                            </a>
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            <a href="contactez-nous.html" target="" class="nav-link" aria-current="false">
+                                                Contact
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+
+                    
+                        
+                            
+                                <ul class="navbar-nav navbar-nav-2">
+                                    
+                                        <li class="nav-item">
+                                            <a href="qui-sommes-nous/nous-creons-de-la-valeur-dans-les-territoires.html" target="" class="nav-link" aria-current="false">
+                                                Nos implantations
+                                            </a>
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            <a href="notre-mission-dinsertion/temoignages.html" target="" class="nav-link" aria-current="false">
+                                                Témoignages
+                                            </a>
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            <a href="notre-mission-dinsertion/rejoindre-nouvelle-attitude.html" target="" class="nav-link" aria-current="false">
+                                                Nous rejoindre
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+
+                    
+                        <p class="share">
+                            
+                                <a href="https://fr.linkedin.com/company/nouvelle-attitude" target="_blank" class="linkedin" rel="noreferrer">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn : Nouvelle attitude</span>
+                                </a>
+                            
+
+                            
+                                <a href="https://twitter.com/nouvelleattitud?lang=fr" target="_blank" class="twitter" rel="noreferrer">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter : Nouvelle attitude</span>
+                                </a>
+                            
+
+                            
+                                <a href="https://www.youtube.com/channel/UC5q-MYtGeXrEUXIZ1HxDQEQ" target="_blank" class="youtube" rel="noreferrer">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">YouTube : Nouvelle attitude</span>
+                                </a>
+                            
+                        </p>
+                    
+                </nav>
+
+                <span class="menuEnd" tabindex="0"></span>
+            </div>
+
+            <div class="mask"></div>
+
+            <a class="btn btn-primary btn-contact" href="contactez-nous.html">
+                Contact
+            </a>
+
+            <button aria-expanded="false" class="btn btn-search" type="button">
+                <i class="far fa-search" aria-hidden="true"></i>
+                <span class="sr-only">Rechercher</span>
+            </button>
+        </div>
+    </header>
+
+    <form role="search" id="quick-search" action="/recherche.html" class="form form-search" method="get" name="form_kesearch_pi1">
+        <div class="container">
+            <span class="quickSearchStart" tabindex="0"></span>
+
+            <div class="form-group has-error">
+                <label for="s"><i class="far fa-search" aria-hidden="true"></i> <span class="sr-only">Rechercher sur le site...</span></label>
+
+                <div class="input-group">
+                    <input aria-required="true" placeholder="Rechercher sur le site..." class="form-control" id="s" title="Rechercher sur le site..." type="search" name="tx_kesearch_pi1[sword]" required="required">
+
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary btn-submit" type="submit" name="" value="">
+                            <span>Rechercher</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-close" type="button">
+                <i class="fal fa-times" aria-hidden="true"></i>
+                <span>Fermer <span class="sr-only">la recherche</span></span>
+            </button>
+
+            <span class="quickSearchEnd" tabindex="0"></span>
+        </div>
+    </form>
+
+
+
+    <div id="main" class="main">
+        
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    
+                        
+
+    <nav aria-label="Fil d’ariane" class="nav-breadcrumb" role="navigation">
+        
+            <ol class="breadcrumb">
+                
+                    <li class=" sub ">
+                        
+                        <a href="index.htm" target="">
+                            Accueil
+                        </a>
+                    </li>
+                
+                    <li class=" active ">
+                        <i class="far fa-chevron-right" aria-hidden="true"></i>
+                        <a href="politique-des-cookies.html" target="" aria-current="page">
+                            Politique des cookies
+                        </a>
+                    </li>
+                
+            </ol>
+        
+    </nav>
+
+
+                    
+
+                    <!--TYPO3SEARCH_begin-->
+                    <h1>Politique des cookies</h1>
+
+                    
+
+                    
+
+    <a id="c204"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">I. Quel est le champ d&#039;application ?</h2>
+            
+    
+
+
+        
+
+        
+                <p>La présente politique s’applique aux cookies déposés et/ou lus lors de la consultation du site <a href="index.htm" target="_blank">www.nouvelle-attitude.fr</a></p>
+<p>ci-après dénommé le «&nbsp;Site&nbsp;» et de ses applications mobiles. Ce périmètre intègre l’ensemble des services rattachés au nom de domaine &nbsp;<a href="http://www.laposte.fr" target="_blank" rel="noreferrer">www.nouvelle-attitude.fr</a></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            
+    
+    
+
+
+
+
+    <a id="c205"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">II. Qu’est-ce qu&#039;un cookie ou un traceur ?</h2>
+            
+    
+
+
+        
+
+        
+                <p>Le terme de cookies est à prendre au sens large et couvre l'ensemble des traceurs déposés et/ou lus, par exemple, lors de la consultation d'un site internet ou d'une application mobile.<br> Par commodité, nous utilisons le terme de « cookie » qui recouvre l'ensemble des technologies ayant pour effet de lire ou écrire des données dans le terminal de l’utilisateur.</p>
+<p>Un cookie ou un traceur est déposé par votre navigateur internet (ex&nbsp;: internet Explorer, Firefox, Safari ou encore Google Chrome...) sur un espace dédié du disque dur de votre terminal, par le serveur du site ou d'une application mobile que vous visitez ou consultez.</p>
+            
+    
+    
+
+
+
+
+    <a id="c206"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">III. Qui dépose et utilise des cookies sur le site et les applications mobiles ?</h2>
+            
+    
+
+
+        
+
+        
+                <p>Des cookies sont&nbsp;déposés par Nouvelle Attitude et sont exploités pour ses propres besoins, Nouvelle Attitude en est donc Responsable de traitement.&nbsp;</p>
+            
+    
+    
+
+
+
+
+    <a id="c207"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">IV. Pourquoi Nouvelle Attitude utilise-t-elle des cookies ?</h2>
+            
+    
+
+
+        
+
+        
+                <p>Nouvelle Attitude utilise des cookies pour&nbsp;:</p><ul> 	<li>Garantir la sécurité et les performances du Site,</li> 	<li>Analyser votre navigation en ligne, améliorer notre Site, obtenir des statistiques de fréquentation.</li> </ul>
+            
+    
+    
+
+
+
+
+    <a id="c208"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">V. Quels sont les catégories de cookies utilisés sur le site ? </h2>
+            
+    
+
+
+        
+
+        
+                <p>Certains cookies s’avèrent indispensables pour l’utilisation du Site. D’autres, s’ils ne sont pas indispensables, permettent une utilisation optimisée du Site, notamment en personnalisant l’affichage des contenus.</p>
+<h3>Les cookies techniques et nécessaires au fonctionnement du site&nbsp;:</h3>
+<p>Ces cookies<strong> </strong>permettent d’assurer la sécurité et la performance du site. Les cookies nécessaires contribuent à rendre le Site utilisable en activant des fonctions de base comme la navigation de page et l'accès aux zones sécurisées du Site. Ce dernier ne peut pas fonctionner correctement sans ces cookies. Ils sont strictement nécessaires à son fonctionnement et ne peuvent pas être désactivés sans &nbsp;risquer de ne plus pouvoir accéder au Site ou à certains services du Site.</p>
+<h3>Les cookies fonctionnels&nbsp;permettant d’améliorer l’ergonomie du site et la personnalisation du contenu :&nbsp;</h3>
+<p>Ces cookies sont strictement nécessaires à la navigation. Nouvelle Attitude les utilise dans son intérêt légitime, afin de fournir une expérience utilisateur optimale et adaptée aux préférences personnelles de celui-ci (détection de problèmes de navigation, amélioration de l’ergonomie,…).</p>
+<h3>Les cookies statistiques et de mesure d'audience</h3>
+<p>Ces cookies aident Nouvelle Attitude pour la collecte et la communication d'information de manière anonyme, à comprendre comment les utilisateurs interagissent avec le Site. Ils peuvent servir à mesurer la fréquentation et l'utilisation du Site. Ainsi, ils permettent de mener des études et nous aident à améliorer l'intérêt et l'ergonomie de nos services. Ils ne permettent pas de faire un suivi global de votre navigation sur d'autres application ou d'autres sites et ne conduisent pas à une regroupement de données avec d'autres traitement ou avec des tiers.</p>
+            
+    
+    
+
+
+
+
+    <a id="c209"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">VI. Quelles sont les finalités des cookies utilisées par Nouvelle Attitude ? </h2>
+            
+    
+
+
+        
+
+        
+                <p><strong>Nouvelle Attitude utilise des cookies pour répondre à différentes finalités</strong>. Ces cookies peuvent être distingués suivant qu’ils nécessitent ou non de recueillir votre consentement.</p>
+<h3>Cookies techniques et cookies nécessaires au fonctionnement du service&nbsp;:</h3>
+<p>(Nom&nbsp; du cookie -&nbsp;Editeur - Durée de vie du cookie - Finalités - Consentement)</p><ul> 	<li>orejime - Nouvelle Attitude - 12 mois - Sauvegarde du consentement concernant les cookies - Pas de consentement démandé</li> </ul><h3>Cookies de mesure d’audience ayant strictement pour but de récolter des données anonymes</h3>
+<p>(Nom&nbsp; du cookie -&nbsp;Editeur - Durée de vie du cookie - Finalités - Consentement)</p><ul> 	<li>_gat_ -&nbsp;Google&nbsp;- 1h&nbsp;&nbsp;- Analyse des audiences - Ces cookies sont utilisés pour nous aider à analyser le trafic et l'audience du site en utilisant l'outil Google Analytics&nbsp;- Consentement demandé</li> 	<li>_gid&nbsp;-&nbsp;Google&nbsp;- 1 jour - Analyse des audiences - Ces cookies sont utilisés pour nous aider à analyser le trafic et l'audience du site en utilisant l'outil Google Analytics&nbsp;- Consentement demandé</li> 	<li>_ga -&nbsp;Google&nbsp;- 2 ans -&nbsp;Analyse des audiences : Ces cookies sont utilisés pour nous aider à analyser le trafic et l'audience du site en utilisant l'outil Google Analytics&nbsp;- Consentement demandé</li> </ul><p>Les cookies de réseaux sociaux sont des cookies publicitaires qui permettent le partage de contenus de nos services avec d’autres personnes, ou de faire connaitre à ces autres personnes votre consultation ou votre opinion concernant un contenu de notre site. Par exemple, cela concerne les boutons « Partager », « J’aime », provenant de réseaux sociaux tels que « Facebook », « Twitter », « Linkedin » etc.</p>
+<p>Même si vous n’avez pas utilisé ce bouton de partage durant la consultation de notre service, le réseau social fournissant ce type de bouton est susceptible de vous identifier grâce à celui-ci et de suivre votre navigation sur notre site. Il suffit pour cela que votre compte au réseau social concerné ait été activé sur votre terminal au cours de cette navigation.</p>
+<p>Vous pouvez utiliser les liens ci-dessous relatifs à chaque politique de confidentialité de ces sociétés si vous souhaitez exercer votre droit d’opposition sur ces cookies&nbsp;:</p>
+<p>•&nbsp;&nbsp;&nbsp;Facebook : <a href="https://www.facebook.com/help/cookies" target="_blank" rel="noreferrer">https://www.facebook.com/help/cookies</a><br> •&nbsp;&nbsp; &nbsp;Twitter : <a href="https://twitter.com/privacy" target="_blank" rel="noreferrer">https://twitter.com/privacy</a><br> •&nbsp;&nbsp; &nbsp;Youtube (Google) : <a href="https://policies.google.com/privacy?hl=fr" target="_blank" rel="noreferrer">https://policies.google.com/privacy?hl=fr</a></p>
+            
+    
+    
+
+
+
+
+    <a id="c210"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">VII. Quelle est la durée de conservation du choix de l’utilisateur ? </h2>
+            
+    
+
+
+        
+
+        
+                <p>Votre acceptation ou votre refus des cookies est, quel que soit le type de cookies concerné, conservé pour une durée de 1 an.</p>
+<p>Votre consentement sera de nouveau sollicité à l’issue de ce délai de 6 mois par l’affichage du bandeau d’information.&nbsp;</p>
+            
+    
+    
+
+
+
+
+    <a id="c211"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">VIII. Quelle est la portée de votre consentement ?</h2>
+            
+    
+
+
+        
+
+        
+                <p>Votre consentement s'applique au nom de domaine &nbsp;suivant : <a href="http://www.nouvelle-atttitude.fr" target="_blank" rel="noreferrer">www.nouvelle-atttitude.fr</a></p>
+<p>Les préférences que vous exprimez concernant la gestion des cookies sont prises en compte tant que l’adresse https// :nouvelle-atttitude.fr&nbsp;apparaît dans votre barre de navigation. Si au cours de votre navigation, l’adresse affichée n’est plus nouvelle-attitude.fr et devient par exemple, Urby&nbsp;.fr &nbsp;ou à la suite d’une redirection vers un autre site, ce site vous demandera vos préférences pour la gestion de ses propres cookies.</p>
+            
+    
+    
+
+
+
+
+    <a id="c212"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">IX. Comment pouvez-vous gérer vos choix sur le dépôt et la lecture des cookies ? </h2>
+            
+    
+
+
+        
+
+        
+                <p>Lors de votre première visite sur notre site ou applications mobiles, il vous est proposé d’accepter ou refuser en cliquant sur le bouton «&nbsp;continuer sans accepter&nbsp;» le dépôt et la lecture sur votre terminal de Cookies déposés par Nouvelle Attitude et de tiers, pour les finalités précisées dans le bandeau d’information et dans le présent document. Vous avez la possibilité d’accepter ou de refuser le dépôt de l’ensemble des Cookies, ou de faire votre choix finalité par finalité en cliquant sur « Configurer vos préférences » sur le bandeau d’information.</p>
+<h3>Cookies soumis à votre consentement</h3>
+<p>Vous pouvez&nbsp;décider de refuser à tout moment l’enregistrement de cookies dans votre terminal, de supprimer à tout moment les cookies déjà présents sur votre appareil, ou suivant vos préférences, de sélectionner ceux que vous souhaitez accepter et ceux que vous souhaitez refuser directement sur notre site, à partir du module Oréjime.</p>
+            
+    
+    
+
+
+
+
+  
+    
+        
+          
+    <p><a href="#" class="" onclick="orejime.show(); return false;">Configurer vos préférences cookies</a></p>
+  
+        
+      
+  
+
+  
+
+
+
+
+    <a id="c213"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">X. Comment pouvez-vous limiter le dépot et la lecture des cookies en paramétrant votre navigateur ? </h2>
+            
+    
+
+
+        
+
+        
+                <p>Vous pouvez configurer&nbsp; votre navigateur pour que des cookies soient enregistrés ou rejetés dans votre terminal, de manière systématique, ou suivant leur émetteur.</p>
+<p>Nous attirons toutefois votre attention sur le fait que le paramétrage de votre navigateur ne vous dispense pas de faire votre choix quant au dépôt et la lecture des cookies sur le Site.</p>
+<p>Le paramétrage de votre navigateur &nbsp;peut également avoir des effets négatifs sur votre navigation. Si vous refusez l’enregistrement de cookies techniques dans votre Terminal, ou si vous supprimez ceux qui y sont enregistrés, vous ne pourrez plus bénéficier d’un certain nombre de fonctionnalités qui sont néanmoins nécessaires pour naviguer dans certains espaces du Site.</p>
+<p>Le cas échéant, nous déclinons toute responsabilité pour les conséquences liées au fonctionnement dégradé du Site résultant de l’impossibilité pour nous d’enregistrer ou de consulter les cookies nécessaires à son &nbsp;fonctionnement et que vous auriez refusés ou supprimés.</p>
+<p>Il faut noter que la configuration de chaque navigateur est différente. Vous pouvez accéder à sa description dans le menu d’aide de votre navigateur, afin de savoir comment modifier vos choix.</p>
+            
+    
+    
+
+
+
+
+  
+    
+        
+          
+    <p><a href="#" class="" onclick="orejime.show(); return false;">Configurer vos préférences cookies</a></p>
+  
+        
+      
+  
+
+  
+
+
+
+
+    <a id="c214"></a>
+
+    
+        
+        
+            
+
+    
+        
+                <h2 class="">XI. Quels sont vos droits sur vos données personnelles et comment les exercer ?</h2>
+            
+    
+
+
+        
+
+        
+                <p>Dans le cadre de l’utilisation des cookies et autres traceurs, Nouvelle Attitude traite des données à caractère personnel vous concernant (ID cookie ou mobile, adresse IP, goûts, préférences…), en tant que Responsable de traitement. Ces &nbsp;données à caractère personnel sont indispensables pour atteindre les objectifs poursuivis par chaque cookie et autre traceur.</p>
+<p>Les données à caractère personnel recueillies ou traitées à l’occasion de votre navigation sur notre site et ses applications mobiles sont destinées à Nouvelle Attitude,&nbsp; ses sous-traitants et partenaires, afin d’améliorer les services offerts sur le site, de faciliter votre navigation sur le site, de traiter vos requêtes, le cas échéant, et de vous informer des offres et actualités de l'entreprise sous réserve d'acceptation de votre part.</p>
+<p>Les données à caractère personnel collectées via les cookies et autres traceurs ne sont jamais conservées plus longtemps que nécessaire pour atteindre la finalité du cookie ou traceur.</p>
+<p>Lorsque le traitement de vos Données est effectué sur le fondement de votre consentement, vous pouvez le retirer à tout moment.</p>
+<p>Lorsque le traitement est fondé sur l’intérêt légitime de Nouvelle Attitude ou d’un tiers, vous pouvez vous opposer au traitement à tout moment, pour des raisons tenant à votre situation particulière.</p><ul> 	<li>Vous avez le droit d’accéder aux données personnelles&nbsp; que nous détenons à votre sujet. Cela inclut le droit de nous demander des informations complémentaires sur : 	<ul> 		<li>les catégories de données que nous traitons</li> 		<li>les finalités du traitement des données</li> 		<li>les destinataires et les catégories de destinataires&nbsp; à qui vos données ont été transmises</li> 		<li>lorsque cela est possible, la durée de conservation de vos données ou lorsque ce n’est pas possible les critères pour déterminer cette durée.</li> 	</ul> 	</li> 	<li>Vous avez le droit de nous faire corriger les données personnelles inexactes ou incomplètes vous concernant&nbsp;;</li> 	<li>Vous pouvez vous opposer à tout moment à ce que nous utilisions vos Données personnelles&nbsp;;</li> 	<li>Vous avez le droit d’être « oublié » par nous en exerçant votre droit d’effacement de vos données&nbsp;;</li> 	<li>Vous avez le droit de demander la suspension du traitement de vos Données Personnelles ;</li> 	<li>Vous pouvez demander à ce que vos Données Personnelles soient récupérées dans un format structuré, couramment utilisé et lisible afin&nbsp; d’en disposer et de les transmettre un autre responsable de traitement&nbsp;;</li> 	<li>Vous avez la faculté de fournir des directives relatives au sort de vos Données personnelles après votre décès&nbsp;;</li> 	<li>Vous pouvez également retirer votre consentement à tout moment, pour les cas où celui-ci vous aurait été demandé. Cela vous permettra notamment de modifier et/ou retirer vos consentements concernant la prospection commerciale.&nbsp;</li> </ul><p>Ces droits peuvent s’exercer en précisant votre nom, prénom, adresse postale et en joignant une copie recto-verso de votre pièce d’identité par courrier à :</p>
+<p>Nouvelle Attitude<br> 74 rue Senouque<br> 78 530 Buc</p>
+            
+    
+    
+
+
+                    <!--TYPO3SEARCH_end-->
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-left">
+                
+                    
+                        
+                            
+                                <a href="protection-des-donnees-personnnelles.html" target="">Protection des données</a>
+                            
+                                <a href="conditions-generales-dutilisation.html" target="">CGU</a>
+                            
+                                <a href="politique-des-cookies.html" target="">Politique des cookies</a>
+                            
+                                <a href="contactez-nous.html" target="">Contact</a>
+                            
+                                <a href="mentions-legales.html" target="">Mentions légales</a>
+                            
+                        
+                    
+                
+
+                
+                    <a href="https://twitter.com/nouvelleattitud?lang=fr" target="_blank" class="share" rel="noreferrer">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter : Nouvelle attitude</span>
+                    </a>
+                
+
+                
+                    <a href="https://fr.linkedin.com/company/nouvelle-attitude" target="_blank" class="share" rel="noreferrer">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn : Nouvelle attitude</span>
+                    </a>
+                
+
+                
+                    <a href="https://www.youtube.com/channel/UC5q-MYtGeXrEUXIZ1HxDQEQ" target="_blank" class="share" rel="noreferrer">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube : Nouvelle attitude</span>
+                    </a>
+                
+            </p>
+
+            <p class="footer-right">
+                <a href="https://www.laposte.fr/collectivites/transition-energetique-et-ecologique" target="_blank" rel="noreferrer">
+                    <img alt="La Poste" src="typo3conf/ext/site/Resources/Public/Frontend/assets/images/logo-laposte.svg" width="140" height="53">
+                </a>
+            </p>
+        </div>
+    </footer>
+<script src="typo3temp/assets/compressed/merged-fc5faeff9198e01fb337e41924a71726.js?1710277303"></script>
+<script src="typo3temp/assets/compressed/merged-20e271853fc1de338f66fb9b8bf23d49.js?1710277303"></script>
+
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.nouvelle-attitude.fr\/","name":"Accueil"}}]}</script>
+</body>
+</html>
+<!-- Cached page generated 30-03-24 19:09. Expires 31-03-24 20:09 -->
